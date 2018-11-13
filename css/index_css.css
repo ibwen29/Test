@@ -1,0 +1,278 @@
+*{
+    margin: 0 ;
+    padding:0;
+    font-family:Microsoft yahei,sans-serif,arial;
+
+}
+body{
+    min-width: 1280px;
+}
+ul li,ol li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+#all{
+    width: 1000px;
+}
+/*------------------------------------------------------------------*/
+header{
+}
+header #header_left{
+    margin-left: 400px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+header #header_right{
+    font-size: 14px;
+    width: 400px;
+    margin-left:735px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+header #header_right a{
+    color: slategray;
+}
+header #header_right #gs{
+    width:22px;
+    float: right;
+}
+header #header_right #right1{
+    width:100px;
+    line-height: 18px;
+    float: right;
+}
+header #header_right #right2{
+    width:100px;
+    line-height: 18px;
+    float: right;
+}
+header #header_right #right3{
+    width:160px;
+    line-height: 18px;
+    float: right;
+}
+/*------------------------------------------------------------------*/
+nav{
+    background: royalblue;
+    height: 50px;
+}
+nav ul{
+    width: 1400px;
+    margin-left: 400px;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    text-align: center;
+    width: 15%;
+    line-height: 50px;
+}
+nav ul li:hover{
+    background: darkblue;
+    height: 49px;
+}
+nav ul li a{
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+nav ul #login{
+    background: orange;
+    height: 50px;
+}
+nav ul #login:hover{
+    background:darkorange;
+}
+nav ul #login a{
+    font-size: 14px;
+}
+/*------------------------------------------------------------------*/
+#date_pages_box{
+    position: relative;
+}
+/*------------------------------------------------------------------*/
+#date{
+    margin-left: 400px;
+    margin-top: 80px;
+    background: white;
+    width: 600px;
+    height: 300px;
+    /*left: 400px;
+    top: 70px;*/
+    z-index:2;
+    position: absolute;
+    box-shadow: 2px 2px 2px  rgb(187,187,187);
+}
+#date #cebian{
+    background:royalblue;
+    width: 80px;
+    height: 300px;
+    /*padding-left: 10px;*/
+    float: left;
+    line-height: 50px;
+}
+#date #cebian #default_cebian{
+    background: white;
+    border-left: 4px orange solid;
+}
+#date #cebian #default_cebian a{
+    color:royalblue;
+    font-weight:bold;
+}
+#date #cebian li{
+    height: 49px;
+    border-bottom: 1px white dotted;
+
+}
+#date #cebian #cebian_bottom{
+    border: none;
+}
+#date #cebian li a{
+    color: white;
+    font-size:18px;
+    margin-left: 5px;
+}
+#date #cebian #cebian_bottom:hover{
+    border-left: 4px orange solid;
+}
+#date #cebian li:hover{
+    background: white;
+    border-left: 4px orange solid;
+    font-weight:bold;
+}
+#date #cebian li a:hover{
+    color:royalblue;
+}
+/*------------------------------------------------------------------*/
+#date_page1{
+    background: white;
+    width: 490px;
+    z-index:3;
+    position: absolute;
+    padding-top: 2px;
+    margin-top: 80px;
+    margin-left: 480px;
+    height: 220px;
+}
+#date_page1 .cabian_nav{
+    height: 25px;
+    border-bottom:2px rgb(196,196,196) solid;
+}
+
+#date_page1 .cabian_nav a:hover{
+    color: royalblue;
+}
+#date_page1 #cebian_button{
+    width: 140px;
+    height: 30px;
+    background: orange;
+    margin-left: 335px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px darkorange solid;
+    border-bottom: 2px lightslategrey solid;
+}
+#date_page1 #cebian_button:hover{
+    background: darkorange;
+}
+#date_page1 #cebian_button a{
+    margin-left: 40px;
+    font-size:16px;
+    color: white;
+}
+#date_page1 ul a{
+    color: dimgrey;
+    font-weight:bold;
+}
+#date_page1 ul li{
+    font-size: 14px;
+    margin:10px;
+    padding-top: 8px;
+}
+
+/*------------------------------------------------------------------*/
+#box{
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 2000px;
+    height: 400px;
+    /*overflow: hidden;*/
+    position: relative;
+    z-index: 1;
+}
+#box #lunbo{
+    width: 10000px;
+    height: 400px;
+    position: absolute;
+
+}
+#box #lunbo li{
+    float: left;
+    width:2000px;
+    height:400px;
+}
+#box #lunbo li img{
+    width: 2000px;
+    height: 400px;
+}
+#list{
+    position: absolute;
+    height: 10px;
+    width: 250px;
+    bottom: 20px;
+    left:1200px;
+}
+#list li{
+    width: 11px;
+    height:11px;
+    margin:0 10px ;
+    background: lightgray;
+    float: left;
+    border-radius: 50%;
+}
+#list .on{
+    width: 13px;
+    height:13px;/*
+    margin-bottom: 5px;*/
+    border: 1px solid white;
+    background: darkgray;
+}
+
+/*------------------------------------------------------------------*/
+footer{
+    width: 1000px;
+}
+footer #footbox{
+    padding-top: 20px;
+    width: 700px;
+    margin-left: 800px;
+}
+footer #zixun{
+    width: 200px;
+    display: inline-block;
+}
+footer #hezuo{
+    width: 200px;
+    display: inline-block;
+}
+footer #guanyu{
+    width: 200px;
+    display: inline-block;
+}
+footer a{
+    font-size: 14px;
+    color: slategray;
+}
+footer #copyright{
+    width: 2000px;/*
+    margin-left: 200px;*/
+    padding-top: 20px;
+    font-size: 12px;
+    color: slategray;
+}
+footer #copyright li{
+    text-align: center;
+    line-height: 25px;
+}

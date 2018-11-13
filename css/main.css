@@ -1,0 +1,129 @@
+.main{
+    margin-top: 35px;
+    height: 50px;
+}
+.main ul{
+    width: 600px;
+    margin-left: 400px;
+}
+/*.main ul li a{
+    color: dimgray;
+}*/
+.main ul li a:hover{
+    color:royalblue;
+    font-weight:600;
+}
+.main ul li{
+    float: left;
+    text-align: center;
+    width: 100px;
+    line-height: 50px;
+}
+/*------------------------------------------------------------------*/
+#main{
+    background: rgb(246,246,246);
+}
+
+.main_img{
+    background: white;
+    width:1250px;
+    height: 400px;
+    margin-left: 400px;
+    border:1px rgb(223,223,223) solid;
+    border-top:3px royalblue solid;
+}
+.main_img .text{
+    color:dimgrey;
+    width:175px;
+    background: white;
+    margin-top: 130px;
+    float: left;
+    height: 21px;
+}
+.main_img .price{
+    color:darkorange;
+    font-weight: bold;
+    font-size: large;
+    height: 21px;
+    width:75px;
+    background: white;
+    margin-top: 130px;
+    float: left;
+    display: inline-block;
+}
+.main_nav_default a{
+    color: royalblue;
+    font-weight:600;
+}
+.img_yidong{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 150px;
+    width: 250px;
+    float:right;
+    transform: scale(0.9,0.9);
+}
+.img_yidong:hover{
+    transform: scale(1,1);
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px 2px  rgb(187,187,187);
+}
+/*------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------*/
+#main1_img{
+    padding-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width:1050px;
+}
+#main1_img img{
+    width:250px;
+    height: 150px;
+}
+
+/*------------------------------------------------------------------*/
+#main2_img{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width:800px;
+}
+#main2_img img{
+    width:250px;
+    height: 150px;
+}
+/*------------------------------------------------------------------*/
+#main3_img{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width:800px;
+}
+#main3_img img{
+    width:250px;
+    height: 150px;
+}
+/*------------------------------------------------------------------*/
+#main4_img{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width:800px;
+}
+#main4_img img{
+    width:250px;
+    height: 150px;
+}
+/*------------------------------------------------------------------*/
+#main5_img{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width:800px;
+}
+#main5_img img{
+    width:250px;
+    height: 150px;
+}
+/*------------------------------------------------------------------*/

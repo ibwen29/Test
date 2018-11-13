@@ -1,0 +1,70 @@
+
+*{
+    margin:0;padding:0
+}
+fieldset,img{
+    border:0;
+}
+:focus{
+    outline:0;
+}
+
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:royalblue;
+    text-decoration:underline;
+}
+a:hover em,a:hover i,a:hover span{
+    cursor:pointer;
+}
+
+.guide{
+    width:60px;
+    margin-left:300px;
+    position:fixed;
+    bottom:20px;
+    _position:absolute;
+    /*_top:expression(documentElement.scrollTop+documentElement.clientHeight - this.clientHeight - 134+'px');*/
+    display:block;
+}
+.guide a{
+    display:block;
+    width:60px;
+    height:50px;
+    background:url(../images/sprite_v2.png) no-repeat;
+    margin-top:10px;
+    text-decoration:none;
+    font:16px/50px "Microsoft YaHei";
+    text-align:center;
+    color:#fff;
+    border-radius:2px;
+}
+.guide a span{
+    display:none;
+    text-align:center;
+}
+.guide a:hover{
+    text-decoration:none;
+    background-color:#39F;
+    color:#fff;
+}
+.guide a:hover span{
+    display:block;
+    width:60px;
+    background:#39F
+}
+.guide .hotel{
+    background-position:-84px -236px;
+}
+.guide .plane{
+    background-position:-146px -236px;
+}
+.guide .trip{
+    background-position:-83px -185px;
+}
+.guide .top{
+    background-position:-145px -185px;
+}
